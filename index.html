@@ -26,7 +26,7 @@
     }
     p { color: #EEEFF8; margin-bottom: 12px; }
     ul { padding-left: 20px; margin-bottom: 12px; }
-    li { color: #EEEFF8; margin-bottom: 6px; }
+    li { color: #EEEFF8; margin-bottom: 8px; }
     a { color: #6C7AE0; text-decoration: none; }
     a:hover { text-decoration: underline; }
     .card {
@@ -35,6 +35,15 @@
       border-radius: 16px;
       padding: 24px;
       margin-bottom: 32px;
+    }
+    .highlight {
+      background: #1A1D3A;
+      border-left: 3px solid #6C7AE0;
+      border-radius: 0 12px 12px 0;
+      padding: 16px 20px;
+      margin-bottom: 24px;
+      font-size: 15px;
+      font-weight: 500;
     }
     footer { margin-top: 48px; color: #8B8FA8; font-size: 12px; text-align: center; }
   </style>
@@ -46,36 +55,35 @@
 
     <div class="card">
       <h2>Overview</h2>
-      <p>Lunar ("the App") is developed by Ordinary Code ("we", "us"). This Privacy Policy describes what information we collect, how we use it, and your rights.</p>
+      <p>Lunar ("the App") is developed by Ordinary Code ("we", "us"). We do not collect, store, or transmit any personal data. This policy explains how the app works and what third-party services are used.</p>
     </div>
 
-    <h2>Information We Collect</h2>
-    <ul>
-      <li><strong>Portfolio Holdings</strong> — The coins, quantities, purchase prices, and dates you enter in the Portfolio tab are stored <strong>locally on your device only</strong>. This data is never transmitted to our servers.</li>
-      <li><strong>App Usage</strong> — Anonymised usage data may be collected by Google AdMob to serve relevant ads and improve the app.</li>
-    </ul>
+    <div class="highlight">
+      🔒 Everything you enter into Lunar stays on your device. We never see it.
+    </div>
 
-    <h2>How We Use Your Information</h2>
+    <h2>Your Data Stays on Your Device</h2>
+    <p>Everything you enter into Lunar — your portfolio holdings, purchase prices, and dates — is stored exclusively on your device using local storage. It is never sent to us or any server we operate. We have no access to it and no ability to recover it if you uninstall the app.</p>
+
+    <h2>What We Do Not Collect</h2>
     <ul>
-      <li>We do not collect or store any personal data on our servers.</li>
-      <li>To display personalised advertisements to free users via Google AdMob.</li>
-      <li>We do not sell your data to any third parties.</li>
-      <li>We do not collect your name, email, phone number, or financial account details.</li>
+      <li>We do not collect your name, email, or any personal identifier.</li>
+      <li>We do not collect your portfolio or financial data.</li>
+      <li>We do not operate any accounts or require any sign-up.</li>
+      <li>We do not track you across apps or websites.</li>
     </ul>
 
     <h2>Third-Party Services</h2>
+    <p>The following third-party services are used by the app. Each operates under its own privacy policy.</p>
     <ul>
-      <li><strong>Google AdMob</strong> — Serves ads to free users. Subject to <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>.</li>
-      <li><strong>CoinGecko</strong> — Provides market price data. No personal data is shared.</li>
-      <li><strong>Amazon Web Services</strong> — Hosts our backend for market data and AI analysis in Sydney, Australia (ap-southeast-2). No personal data is transmitted.</li>
-      <li><strong>Anthropic (via AWS Bedrock)</strong> — Powers AI market analysis. No personal data is included in analysis requests.</li>
+      <li><strong>Google AdMob</strong> — Used to display advertisements to free users. AdMob may collect anonymised device and usage data to serve relevant ads. See <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>.</li>
+      <li><strong>CoinGecko</strong> — Provides cryptocurrency market prices. Only your requested coin symbols are sent; no personal data is shared.</li>
+      <li><strong>Amazon Web Services</strong> (Sydney, ap-southeast-2) — Hosts our backend for market data, AI signals, and news aggregation. No personal data is transmitted to or stored on these servers.</li>
+      <li><strong>Anthropic (via AWS Bedrock)</strong> — Powers the AI market analysis feature. Requests contain only public price and volume data — no personal information.</li>
     </ul>
 
-    <h2>Data Storage</h2>
-    <p>Your portfolio data is stored exclusively on your device. Uninstalling the app will permanently delete this data. We have no ability to recover it.</p>
-
     <h2>Children's Privacy</h2>
-    <p>The App is not directed at children under 13. We do not knowingly collect data from children.</p>
+    <p>The App is not directed at children under 13.</p>
 
     <h2>Changes to This Policy</h2>
     <p>We may update this policy from time to time. Continued use of the App after changes constitutes acceptance.</p>
